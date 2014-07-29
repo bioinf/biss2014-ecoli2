@@ -8,3 +8,6 @@ python spades.py -o output_folder --only-assembler -1 forward_reads.fastq -2 rev
 python CONTIGuator.py -r sequence.fasta -c contigs.fasta
 Доступен по ссылке: 
 https://drive.google.com/file/d/0B9VJ-fdfUsvqM3NCQWhkVXNQTVU/edit?usp=sharing
+
+4*. Скаффолд, собранный с помощью Abacas, доступен по ссылке https://drive.google.com/file/d/0B0-bejCGlNSdVEVtcUJvTHpzSkU/edit?usp=sharing
+perl ~/EcoliProject/abacas.pl -r ~/EcoliProject/reference.fasta -q ~/EcoliProject/contigs.fasta -p nucmer –c –m –b –o
