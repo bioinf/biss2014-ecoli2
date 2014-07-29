@@ -1,0 +1,8 @@
+1. Загрузила файлы в fastqc - качество хорошее, тримминг не нужен.
+2. Собрала геном в spades, сначала неверно, т.к. использовала параметр --pe (он требуется для указания файлов с парными ридами),
+собрали геном  с командной строкой
+python spades.py -o output_folder --only-assembler -1 forward_reads.fastq -2 reverse_reads.fastq
+3. Оценили качество в QUAST
+python quast.py -o output_folder file_with_contigs.fasta
+N50=69281
+total length = 5201829 сопоставима с геномом 5154862+88000+76000+1500 = 5320362 (вместе с плазмидами)
