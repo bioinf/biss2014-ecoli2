@@ -4,4 +4,5 @@ python spades.py -o output_folder --only-assembler -1 forward_reads.fastq -2 rev
 3. QUAST results:
   N50=69281
   total length = 5201829 сопоставима с геномом 5154862+88000+76000+1500 = 5320362 (вместе с плазмидами)
-  
+4. Собран скаффолд в программе CONTIGuator. Доступен по ссылке: 
+https://drive.google.com/file/d/0B9VJ-fdfUsvqM3NCQWhkVXNQTVU/edit?usp=sharing
