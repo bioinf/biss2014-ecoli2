@@ -1,0 +1,24 @@
+Найдено несколько токсинов, которые есть у нашего штамма, но нет у референсного генома. 
+
+1) ShET2 enterotoxin
+  Шиготоксин, который встречается у шигелл и эшерихий.
+  
+2) Small toxic polypeptide LdrD
+Toxic peptide whose overexpression causes rapid cell killing and nucleoid condensation of the host cell. Overexpression induces
+stress-response and a number of membrane protein genes.
+
+ID UniProt = Q6BF25
+
+3) Toxin PezT
+Toxic component of a toxin-antitoxin (TA) module. Phosphorylates UDP-N-acetyl-D-glucosamine (UNAG) on the 3'-hydroxyl group of
+the N-acetyl-D-glucosamine moiety, yielding UNAG-3P. UNAG-3P inhibits MurA, the first committed step in cell wall synthesis, which
+is then blocked. Upon expression in E.coli results in decreased cell growth and viability, followed 3 hours later by growth
+restoration; the toxic effect and phosphorylation of UNAG are neutralized by coexpression with cognate antitoxin PezA.
+A mutant lacking the last 11 residues is stably maintained in E.coli, unlike the wild-type which undergoes spontaneous mutation.
+Expression of the deletion mutant in rapidly growing liquid cultures leads to cell bulging, permeabilization and massive lysis 
+by 1 hour. Cells that survive are not able to undergo cytokinesis. Expression in slowly growing cells leads to bulging but not lysis.
+
+Biological process	Virulence
+Biological_process	pathogenesis
+
+ID UniProt = Q97QZ1
