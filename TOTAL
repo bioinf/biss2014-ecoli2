@@ -16,12 +16,14 @@ perl ~/EcoliProject/abacas.pl -r ~/EcoliProject/reference.fasta -q ~/EcoliProjec
 ssh morlova@192.168.25.187
 ввести пароль
 cd /tools/prokka/prokka-1.10/bin
-./prokka --centre XXX --kingdom Bacteria --genus Escherichia --species coli --outdir /home/morlova/prokka_anna --force ~/scaffold_abacas_anna.fasta 
+./prokka --centre XXX --kingdom Bacteria --genus Escherichia --species coli --outdir /home/morlova/prokka_anna --force /
+~/scaffold_abacas_anna.fasta 
 
 *--centre XXX - эта настройка нужна для того, чтобы перевести имена контигов в приемлемый для Mauve вид, иначе возникают проблемы.
 Результат хранится на сервере в /home/morlova/prokka_anna
 
-5*. Тем временем RAST прислал ответ, что тоже проаннотировал геном. Файл gbk доступен по ссылке: https://drive.google.com/file/d/0B0-bejCGlNSdNENXMVRhWG5uVzQ/edit?usp=sharing
+5*. Тем временем RAST прислал ответ, что тоже проаннотировал геном. Файл gbk доступен по ссылке: 
+https://drive.google.com/file/d/0B0-bejCGlNSdNENXMVRhWG5uVzQ/edit?usp=sharing
 
 6. Загрузили файл /home/morlova/prokka_anna/PROKKA_07302014.gbk. Открыли его с помощью любого текстового редактора, удалили в начале
 две строчки, начинающиеся со слов ACCESSION и VERSION (это тоже нужно, чтобы mauve смог прочитать аннотации). Сохранили файл с новым именем.
