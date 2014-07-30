@@ -22,3 +22,15 @@ Biological process	Virulence
 Biological_process	pathogenesis
 
 ID UniProt = Q97QZ1
+
+4) Toxin HigB-2
+
+Toxic component of a toxin-antitoxin (TA) module. Inhibits translation by cleavage of mRNA. Ref.2
+Induction	
+Induced by amino acid starvation and the protein synthesis inhibitor chloramphenicol. Ref.2
+Miscellaneous	
+HigB-2/HigA-2 has been shown to stabilize plasmids very efficiently in E.coli. Three hours of ectopic expression of higB-2 results
+in bacteriostasis without any detectable loss of viability.
+Molecular function	Toxin
+
+ID UniProt = Q9KMA6
