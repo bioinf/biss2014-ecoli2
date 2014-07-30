@@ -3,6 +3,8 @@
 1) ShET2 enterotoxin
   Шиготоксин, который встречается у шигелл и эшерихий.
   
+  protein_id="XXX:PROKKA_04190"
+  
 2) Small toxic polypeptide LdrD
 Toxic peptide whose overexpression causes rapid cell killing and nucleoid condensation of the host cell. Overexpression induces
 stress-response and a number of membrane protein genes.
