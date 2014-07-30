@@ -7,16 +7,17 @@
   
 токсины, которые по данным не участвуют в патогенезе, но не присутствуют в референсе:
 
-
-Small toxic protein TisB
-ID UniProt = A5A627
+* Small toxic protein TisB
+ ID UniProt = A5A627
 
 * small toxic polypeptide
-protein_id="XXX:PROKKA_00010"
+ protein_id="XXX:PROKKA_00010"
 
 * Cytoskeleton-binding toxin CbtA
 ID UniProt = P64524
 
+* small toxic polypeptide
+ protein_id="XXX:PROKKA_03720"
 
 Токсины, участвующие в патогенезе, которые есть и у референса:
 
