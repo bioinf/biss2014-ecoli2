@@ -23,6 +23,8 @@ Biological_process	pathogenesis
 
 ID UniProt = Q97QZ1
 
+токсины, которые по данным не участвуют в патогенезе, но не присутствуют в референсе:
+
 4) Toxin HigB-2
 
 Toxic component of a toxin-antitoxin (TA) module. Inhibits translation by cleavage of mRNA. Ref.2
@@ -34,3 +36,11 @@ in bacteriostasis without any detectable loss of viability.
 Molecular function	Toxin
 
 ID UniProt = Q9KMA6
+
+5) Small toxic protein TisB
+
+A toxic protein; overexpression causes cessation of growth. Overexpression induces stress-response, a number of membrane protein genes, 
+and leads to cell death. Part of the programmed response to DNA damage; damage leads to increased accumulation of the protein which 
+slows or stops bacterial growth, probably allowing DNA repair before cells continue to grow.
+
+ID UniProt = A5A627
