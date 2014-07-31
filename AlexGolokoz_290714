@@ -14,7 +14,7 @@ sudo apt-get install abacas
 
 Команда для запуска следующая:
 
-abacas -r <reference.fasta> -q <contigs.fasta> -p nucmer
+abacas -r <reference.fasta> -q <contigs.fasta> -p nucmer -c -m -b -o
 
 Осторожно! Результаты сохраняются в ту папку, которая была активной на момент
 запуска программы. В итоге у меня получилось порядка десятка файлов, среди которых
