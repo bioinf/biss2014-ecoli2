@@ -1,0 +1,23 @@
+from Bio import SeqIO
+
+
+def sequences(fname1, fname2): # script for search of new genes(with products) in scaffold in comparison to reference
+    handle1 = SeqIO.read(fname1, "genbank") # first file is reference, second is scaffols
+    handle2 = SeqIO.read(fname2, "genbank")
+    towrite = open('towrite.txt', 'w') # to write results
+    genes1 = set()
+    genes_prot2 = {}
+    genes2 = set()
+    for feat1 in handle1.features: #create set with genes in reference
+        if'gene' in feat1.qualifiers:
+            genes1.add(feat1.qualifiers['gene'][0])
+    for feat2 in handle2.features:# create set with genes in scaffold
+        if 'gene' in feat2.qualifiers:
+            genes2.add(feat2.qualifiers['gene'][0])
+            if 'product' in feat2.qualifiers: #if these genes have products we put them to dict
+                genes_prot2[feat2.qualifiers['gene'][0]] = feat2.qualifiers['product'][0]
+    genes_new = genes2 - genes1 #find unique genes in scaffold set
+    for key, value in genes_prot2.items():
+        if key in genes_new: #if a gene of scaffold has protein and is not in a set of reference genes
+            towrite.write(key + ': ' + value + '\n')#we write it to output
+    towrite.close()
